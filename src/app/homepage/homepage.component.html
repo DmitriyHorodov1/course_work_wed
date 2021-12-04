@@ -1,0 +1,89 @@
+
+
+
+<button (click)="authService.SignOut()"  class="log" > Log out</button>
+<div  *ngIf="authService.userData as user">
+<p  style="margin: 10px"   >Email: <strong>{{user.email}}</strong></p>
+</div>
+
+
+<style>
+    .logo {
+      margin-top: 30px;
+      width: 333px;
+      height: 165px;
+      background-color: rgba(252, 252, 252, 0);
+      font-weight: bold;
+      position: relative;
+      animation-name: example;
+      animation-duration: 3s;
+      animation-fill-mode: forwards;
+    }
+
+    .hello{
+      padding-top: 25px;
+      padding-left: 10px;
+      border-radius: 10px;
+      height: 50px;
+      width: 333px;
+      background-color: cornflowerblue;
+      margin-top: 50px;
+      font-size: 30px;
+
+      position: absolute;
+      animation-name: example;
+      animation-duration: 3s;
+      animation-fill-mode: forwards;
+    }
+
+    .game_button{
+        border-radius: 10px;
+        margin-top: 170px;
+        margin-left: 85px;
+        height: 40px;
+        width: 170px;
+        font-size: 25px;
+        background-color: cornflowerblue;
+        position: absolute;
+        animation-name: example;
+        animation-duration: 3s;
+        animation-fill-mode: forwards;
+       text-align: center;
+
+    }
+    .technique_button{
+        border-radius: 10px;
+        margin-top: 250px;
+        margin-left: 72px;
+        height: 40px;
+        width: 190px;
+        font-size: 25px;
+        background-color: cornflowerblue;
+        position: absolute;
+        animation-name: example;
+        animation-duration: 3s;
+        animation-fill-mode: forwards;
+        text-align: center;
+
+    }
+    body{
+        background-color: cornflowerblue;
+    }
+
+
+    #div1 {animation-timing-function: linear;}
+    #div2 {animation-timing-function: ease;}
+    #div3 {animation-timing-function: ease-in;}
+    #div4 {animation-timing-function: ease-out;}
+
+
+    @keyframes example {
+      from {left: 0px;}
+      to {left: 600px;}
+    }
+    </style>
+
+    <div id="div1" class="logo" > <img  src="assets\image\logo.png"></div>
+    <div id="div2" class="hello"  >Welcome to IT_INFO.UA </div>
+    <button id="div3" class="game_button"  routerLink="/game" >Game blog</button>
+     <button id="div4" class="technique_button"  routerLink="/technique" > Technique blog </button>

@@ -1,0 +1,41 @@
+<div class="border mat-elevation-z20  "    >
+  <div >
+
+    <div >
+      <h3 style="text-align: center;"  >Sign In</h3>
+      <div >
+        <input type="text" style="border-radius: 5px; margin-bottom: 5px; text-align: center; margin-left: 45%;  " placeholder="Username" #userName required>
+      </div>
+
+      <div >
+        <input type="password"  style="border-radius: 5px; margin-bottom: 5px; text-align: center; margin-left: 45%;" placeholder="Password" #userPassword required>
+      </div>
+
+      <!-- Calling SignIn Api from AuthService -->
+      <div>
+        <input type="button" class="btn btn-outline-dark "  style="margin-left: 45%"  value="Log in" (click)="authService.SignIn(userName.value, userPassword.value)">
+      </div>
+
+      <div >
+        <span style="margin-left: 45% ; "><span >Or</span></span>
+      </div>
+
+      <!-- Calling GoogleAuth Api from AuthService -->
+      <div >
+        <button type="button" class="btn btn-outline-dark" style="margin-left: 45%" (click)="authService.GoogleAuth()">
+
+          Log in with Google
+        </button>
+      </div>
+
+      <div style="margin-left: 45%">
+        <span routerLink="/forgot-password">Forgot Password?</span>
+      </div>
+    </div>
+
+    <div style="margin-left: 45%">
+      <span>Don't have an account?<span class="border-info" routerLink="/register-user"> Sign Up</span></span>
+    </div>
+
+  </div>
+</div>

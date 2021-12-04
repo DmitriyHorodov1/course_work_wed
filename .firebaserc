@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "itinfo-df9d2": {
+      "hosting": {
+        "corseProject": [
+          "itinfo-df9d2"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "itinfo-df9d2"
+  }
+}

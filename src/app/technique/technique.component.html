@@ -1,0 +1,63 @@
+<div class="first_block"   *ngIf="authService.userData as user" >
+
+  <button *ngIf="user.email == 'gorodovdmitro@gmail.com'"   class="button_first_block" (click)="openModal('custom-modal-1')"> Добавить пост </button>
+  <button   class="button_first_block" (click)="authService.SignOut()"> Log out </button>
+  {{user.email}}
+</div>
+<div class="second_block">
+
+  <p class="p1_text">IT_INFO.UA</p>
+  <table class="tr_first">
+    <tr>
+      <td><button class="button_second_block" routerLink="/game" >Игры</button></td>
+      <td><button class="button_second_block" routerLink="/technique">Техника </button> </td>
+
+    </tr>
+  </table>
+  <p class="p_block" > Про Техлогии </p>
+
+
+</div>
+
+
+<div  *ngIf="authService.userData as user"   style= "margin-left: 450px; padding: 5px; width: 550px ; position: absolute;" >
+
+  <div  style="padding: 12px; border-style:solid; border-radius: 5px; margin-top: 12px;"  *ngFor="let post of posts | async"       >
+    <button  *ngIf="user.email == 'gorodovdmitro@gmail.com'"     class="delete_button"  type ="submit" (click)="deletePost(post.Id)" >Delete</button>
+    <button  *ngIf="user.email == 'gorodovdmitro@gmail.com'"  routerLink="/edit"  (click)=" getIdandpushtoedit(post.Id, post.title , post.content)" class="edit_button" >   Edit </button>
+
+
+    <table >
+      <tr style=" font-size: 20px;" ><b>{{ post.title }}</b></tr>
+      <td style="width: 550px;"  >{{ post.content }}</td>
+    </table>
+
+
+  </div>
+</div>
+
+
+<jw-modal id="custom-modal-1">
+  <form>
+    <p style=" text-align: center; font-size: 20px; color: white;"> Title </p>
+    <div><input class="input" name= "title" id ="title" type="text" [(ngModel)] = "title"   /></div>
+    <p style=" text-align: center; font-size: 20px; color: white; padding: 10px; "> Content </p>
+    <div><textarea class=input_post  name="content" id="content" type="textarea" [(ngModel)] = "content"   ></textarea></div>
+    <button class="button_popup" (click)="closeModal('custom-modal-1');"> Закрыть</button>
+    <button class="button_popup" type ="submit" (click)="addPost()"   > Сохранить </button>
+
+  </form>
+  <div>   <p class = "message"> {{ErrorInput}}</p>  </div>
+
+</jw-modal>
+
+
+
+<button (click)="scrollToTop()" class="top_button"  >
+  <img  src="assets\image\to_top.png">
+</button>
+<div class="footer">
+  <p  class="p1_text">IT_INFO.UA</p>
+
+</div>
+

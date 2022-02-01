@@ -1,0 +1,73 @@
+<nav class="navbar navbar-expand-lg bg-success"  *ngIf="authService.userData as user" >
+  <div class="container">
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link"  (click)="openModal('custom-modal-1')">Add post <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" (click)="authService.SignOut()">Sign Out</a>
+        </li>
+        <li class="nav-item">
+          <button class="btn btn-success" routerLink="/game">Игры </button>
+        </li>
+        <li class="nav-item">
+          <h3>IT_INFO about technique</h3>
+        </li>
+      </ul>
+      <span class="navbar-text">
+        {{user.email}}
+      </span>
+    </div>
+  </div>
+</nav>
+
+
+
+
+<div  *ngIf="authService.userData as user"   style= "margin-left: 450px; padding: 5px; width: 550px ; position: absolute;   " >
+
+  <div  style="padding: 12px; border-style:solid; border-radius: 5px; margin-top: 12px;"  *ngFor="let post of posts | async"       >
+    <button  *ngIf="user.email == post.userOwner "     class="btn btn-danger"  type ="submit" (click)="deletePost(post.Id)" >Delete</button>
+    <button  *ngIf="user.email == post.userOwner "  routerLink="/edit"  (click)=" getIdandpushtoedit(post.Id, post.title , post.content)" class="btn btn-success" >   Edit </button>
+    <button type="button" class="btn btn-primary">Coments</button>
+    <table  >
+      <tr style=" font-size: 20px;" ><b>{{ post.title }}</b></tr>
+      <td  >{{ post.content }}</td>
+    </table>
+
+
+  </div>
+</div>
+
+
+<jw-modal id="custom-modal-1" >
+  <form>
+    <p style=" text-align: center; font-size: 20px; color: white;"> Title </p>
+    <div><input class="form-control" name= "title" id ="title" type="text" [(ngModel)] = "title"   /></div>
+    <p style=" text-align: center; font-size: 20px; color: white; padding: 10px; "> Content </p>
+    <div><textarea class="form-control" name="content" id="content" type="textarea" [(ngModel)] = "content"   ></textarea></div>
+    <button class="btn btn-primary" (click)="closeModal('custom-modal-1');"> Закрыть</button>
+    <button class="btn btn-primary" style="margin-left: 70px;" type ="submit" (click)="addPost()"   > Сохранить </button>
+
+  </form>
+  <div>   <p class = "message"> {{ErrorInput}}</p>  </div>
+
+</jw-modal>
+
+
+
+
+
+
+
+
+<button (click)="scrollToTop()" class="top_button"  >
+  <img  src="assets\image\to_top.png">
+</button>
+<nav class="navbar fixed-bottom navbar-light bg-success">
+  <div class="container">
+    <h6 class="navbar-brand" >IT_INFO.UA</h6>
+  </div>
+</nav>
+

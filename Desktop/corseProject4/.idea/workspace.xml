@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c9075ab2-1c80-43fa-87a6-272ccd0514d4" name="Changes" comment="01.002.22">
+      <change beforePath="$PROJECT_DIR$/blog_app/src/app/edit/edit.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/blog_app/src/app/edit/edit.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog_app/src/app/edit/edit.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog_app/src/app/edit/edit.component.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/blog_app" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="ProjectId" id="1xzUg4vYpDs1n4CyMmQWzQULzur" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/blog_app/node_modules" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="ts.external.directory.path" value="E:\PhpStorm 2021.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\olaol\Desktop\corseProject4\blog_app\node_modules" />
+      <recent name="C:\Users\olaol\Desktop\corseProject4\blog_app\src\assets" />
+      <recent name="C:\Users\olaol\Desktop\corseProject4\blog_app\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\olaol\Desktop\corseProject4\blog_app\src\assets\img" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.Angular CLI Server">
+    <configuration name="Angular Application" type="JavascriptDebugType" uri="http://localhost:4200">
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular CLI Server" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c9075ab2-1c80-43fa-87a6-272ccd0514d4" name="Changes" comment="" />
+      <created>1631357520955</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1631357520955</updated>
+      <workItem from="1631357523435" duration="2255000" />
+      <workItem from="1631370832537" duration="132000" />
+      <workItem from="1632205048305" duration="274000" />
+      <workItem from="1632205646600" duration="1226000" />
+      <workItem from="1637589592100" duration="444000" />
+      <workItem from="1637590053552" duration="1309000" />
+      <workItem from="1637605545548" duration="4231000" />
+      <workItem from="1637614724715" duration="151000" />
+      <workItem from="1637662096874" duration="1079000" />
+      <workItem from="1637663201407" duration="1158000" />
+      <workItem from="1637665211396" duration="951000" />
+      <workItem from="1637674086055" duration="244000" />
+      <workItem from="1637697937081" duration="776000" />
+      <workItem from="1637751144809" duration="181000" />
+      <workItem from="1638004412237" duration="3600000" />
+      <workItem from="1638009825382" duration="8876000" />
+      <workItem from="1638039775657" duration="9000" />
+      <workItem from="1638726902182" duration="2533000" />
+      <workItem from="1638804071784" duration="5761000" />
+      <workItem from="1638869951331" duration="3559000" />
+      <workItem from="1638883065091" duration="4667000" />
+      <workItem from="1638900941736" duration="2147000" />
+      <workItem from="1638959632792" duration="2094000" />
+      <workItem from="1638988364120" duration="19000" />
+      <workItem from="1642361436461" duration="553000" />
+      <workItem from="1642423528410" duration="71000" />
+      <workItem from="1642504874552" duration="7849000" />
+      <workItem from="1642934649977" duration="8614000" />
+      <workItem from="1643020616021" duration="10000" />
+      <workItem from="1643044288129" duration="29000" />
+      <workItem from="1643108411246" duration="7842000" />
+      <workItem from="1643647653388" duration="1971000" />
+      <workItem from="1643650138779" duration="5257000" />
+      <workItem from="1643655900584" duration="320000" />
+      <workItem from="1643661394023" duration="10000" />
+      <workItem from="1643663357148" duration="684000" />
+      <workItem from="1643714925514" duration="4881000" />
+      <workItem from="1643724824092" duration="1242000" />
+    </task>
+    <task id="LOCAL-00001" summary="01.002.22">
+      <created>1643717550003</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1643717550003</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="01.002.22" />
+    <option name="LAST_COMMIT_MESSAGE" value="01.002.22" />
+    <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/app/add-post/add-post.component.ts</url>
+          <line>20</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
